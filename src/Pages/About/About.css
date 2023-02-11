@@ -1,0 +1,13 @@
+.main-div {
+    flex: 1;
+    display: flex;
+    justify-content: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%
+}
+.holder-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
