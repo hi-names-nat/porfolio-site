@@ -4,12 +4,13 @@ import './App.css';
 import Topbar from "./Components/Topbar/Topbar";
 import About from "./Pages/About/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Portfolio from "./Pages/Projects/Portfolio";
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-        <About />
+        <Portfolio />
     </div>
   );
 }

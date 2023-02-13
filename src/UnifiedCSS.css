@@ -1,0 +1,20 @@
+.paragraph {
+    font-family: "Raleway";
+    font-weight: bold;
+    color: floralwhite;
+}
+.header {
+    font-family: "Montserrat";
+    color: white;
+}
+.hyperlink {
+    color: antiquewhite;
+}
+.body {
+    background-color: darkgray;
+}
+.hyperlink-header {
+    color: antiquewhite;
+    font-family: "Montserrat";
+    color: white;
+}
