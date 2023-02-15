@@ -2,8 +2,63 @@
     flex: 1;
     flex-direction: row;
     display: flex;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    background: linear-gradient(0.25turn, #332835, #312633  );
+    padding: 3vh 5px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #111111;
+    margin-bottom: 5vh;
 }
 .header-div {
-    margin-bottom: 5vh;
+    margin: 3vh 0 2vh;
+}
+
+.carousel {
+    aspect-ratio: 16/9 !important;
+    width: 35vw;
+    min-width: 400px;
+    display: flex;
+    background-color: darkred;
+}
+.player {
+    aspect-ratio: 16/9 !important;
+    padding: 0 0 0;
+}
+.image {
+    aspect-ratio: 16/9 !important;
+}
+.media-wrapper {
+}
+div.media-wrapper > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+div.media-wrapper > ReactPlayer {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+.text-holder {
+    justify-content: center;
+    align-self: center;
+    width: 60vh;
+    margin: 0 10px;
+}
+.text-wrapper {
+    background-color: pink;
+    text-align: center;
+    display: flow;
+}
+.button {
+    width: 300px;
+    height: 100px;
+    margin: 1vh 3vw;
+
+
+}
+.button-holder {
+    width: 100%;
+     justify-content: space-evenly;
 }

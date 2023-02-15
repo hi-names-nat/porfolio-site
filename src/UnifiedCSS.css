@@ -1,26 +1,31 @@
 .paragraph {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     color: floralwhite;
 }
 .header {
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 .hyperlink {
+    font-family: 'Raleway', sans-serif;
     color: #f0b0ff;
 }
 .button {
-    border-radius: 500px;
+    border-radius: 40px;
     width: 100px;
     height: 50px;
-    background-color: #f0b0ff;
+    background-color: #4e4b3f;
+    border: none;
 }
-.body {
-    background-color: darkgray;
+.button:hover {
+    background-color: #3a362f;
+}
+.button:focus {
+    background-color: #332f29;
+
 }
 .hyperlink-header {
     color: antiquewhite;
-    font-family: "Montserrat";
-    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
