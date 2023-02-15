@@ -8,7 +8,13 @@
     color: white;
 }
 .hyperlink {
-    color: antiquewhite;
+    color: #f0b0ff;
+}
+.button {
+    border-radius: 500px;
+    width: 100px;
+    height: 50px;
+    background-color: #f0b0ff;
 }
 .body {
     background-color: darkgray;

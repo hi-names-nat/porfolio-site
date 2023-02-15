@@ -1,13 +1,18 @@
 .main-container {
-    background: linear-gradient(0.25turn, #304050, #354555);
+    background: linear-gradient(0.25turn, #332835, #312633  );
     flex: 1;
     text-align: left;
-    padding: 1vh 1vw 1vh;
+    padding: 1vh 1vw 0;
+    border-radius: 15px;
+    margin: 1vh 0 0;
+    box-shadow: 10px 5px 5px #111111;
+    text-shadow: orange;
     }
 .info-container {
     flex-direction: row;
     flex: 1;
     display: flex;
+
 }
 .player {
     flex-grow: 1;
@@ -20,14 +25,17 @@
 .player-wrapper {
     justify-content: center;
     align-items: center;
+    display: flex;
+    box-shadow: #111111;
 
 }
 .desc-div {
     flex: 1;
     text-align: left;
     margin-top: 5px;
-    margin-left: 13px;
+    margin-bottom: 0;
     }
 .text {
-
+}
+.header {
 }

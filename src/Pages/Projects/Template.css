@@ -1,0 +1,9 @@
+.info-div {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+
+}
+.header-div {
+    margin-bottom: 5vh;
+}

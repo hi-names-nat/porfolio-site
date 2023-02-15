@@ -18,7 +18,7 @@ export default function DemoVideo(props : VideoProps) {
             <div className={"info-container"}>
                 <Row>
                     <Col className={"player-wrapper"}>
-                        <ReactPlayer className={"player"} url={props.video} muted={true} loop={true} playing={true} width={'30vw'} height={'30vh'}/>
+                        <ReactPlayer className={"player"} url={props.video} muted loop playing controls width={'30vw'} height={'30vh'}/>
                     </Col>
                     <Col>
                         <div className={"desc-div"}>
