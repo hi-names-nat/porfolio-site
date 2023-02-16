@@ -11,6 +11,9 @@
     font-family: 'Raleway', sans-serif;
     color: #f0b0ff;
 }
+.hyperlink:hover {
+    color: #ecc4ff;
+}
 .button {
     border-radius: 40px;
     width: 100px;
@@ -28,4 +31,7 @@
 .hyperlink-header {
     color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
+}
+.hyperlink-header:hover {
+    color: #ecc4ff;
 }

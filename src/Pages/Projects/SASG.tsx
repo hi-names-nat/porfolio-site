@@ -15,7 +15,7 @@ export default function SASG() {
     return (
         <Container>
             <div  className={"header-div"}>
-                <h1 className={"header"}>Steady AS She Goes</h1>
+                <h1 className={"header"}>Steady As She Goes</h1>
             </div>
             <div className={"info-div"}>
                 <div className={"text-holder"}>
@@ -43,15 +43,10 @@ export default function SASG() {
                 <div>
                     <Carousel className={"carousel"}>
                         <Carousel.Item>
-                                <ReactPlayer url={require("../../Assets/SASG/sasg_1.png")}
+                                <ReactPlayer url={require("../../Assets/SASG/SASG.mp4")}
                                              width={'100%'} height={'100%'} className={"player"}
                                              muted loop playing/>
                             </ Carousel.Item>
-                        <Carousel.Item>
-                            <ReactPlayer url={require("../../Assets/SASG/sasg_2.png")}
-                                         width={'100%'} height={'100%'} className={"player"}
-                                         muted loop playing/>
-                        </ Carousel.Item>
                         <Carousel.Item>
                             <div className={"media-wrapper"}>
                                 <Image className={"image"} src={require("../../Assets/SASG/sasg_1.png")} />
