@@ -7,6 +7,7 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import ProjectTemplate from "./Pages/Projects/Template";
 import SASG from "./Pages/Projects/SASG";
 import {match} from "assert";
+import Bobcat from "./Pages/Projects/Bobcat";
 
 enum currentPage {
     portfolio,
@@ -24,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Topbar />
-       <Portfolio/>
+       <Bobcat/>
     </div>
   );
 }

@@ -11,7 +11,7 @@ const openInNewTab = (url: string) => {
     if (newWindow) newWindow.opener = null
 }
 
-export default function Adoorable() {
+export default function Dreamrunner() {
     return (
         <Container>
             <div  className={"header-div"}>
