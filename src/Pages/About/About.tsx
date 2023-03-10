@@ -14,24 +14,29 @@ export default function About() {
                         <Image src={me} className={"self-image"} rounded={true} fluid={true}/>
                     </Col>
                     <Col>
-                        <h1 className={"header"}>Hi, I'm Natalie.</h1>
-                        <p className={"paragraph"}>
-                            I'm a game designer and programmer who's worked both independently and in a team setting on
-                            multiple projects large and small. I currently attend Ohio University and have an active
-                            role as the president of the Ohio University Game Developers Association
-                            (a chapter of IGDA), as well as offering tutoring services for skills such as programming,
-                            engine use, game design, and level design.
+                        <h1 className={"header"}>Hi, I'm Natalie!</h1>
+                        <p className={"paragraph"} style={{textAlign: 'left'}}>
+                            My name is Natalie Soltis: a passionate game designer and programmer
+                            with five years of experience in crafting stand-out worlds and gameplay and working with
+                            teams, both large and small.
                         </p>
-                        <br />
-                        <p className={"paragraph"}>Feel free to send me an email at <a className={"hyperlink"} href={`mailto:natalie.soltis@outlook.com`}>natalie.soltis@outlook.com</a> to ask questions or even just chat!</p>
+                        <p className={"paragraph"} style={{textAlign: 'left'}}>
+                            I currently attend Ohio University and have an active role as the president of the
+                            Ohio University Game Developers Association (a chapter of The International Game Developers
+                            Association), as well as offering tutoring services for skills such as C++, C#, Unity, Unreal,
+                            Rust, Godot, Game Design, and Level Design.</p>
+                        <p className={"paragraph"} style={{textAlign: 'left'}}>Feel free to send me an email at <a className={"hyperlink"} href={`mailto:natalie.soltis@outlook.com`}>natalie.soltis@outlook.com</a> to ask questions or even just chat!</p>
                         <br />
                         <h3 className={"header"}>References</h3>
-                        <p className={"paragraph"}>
+                        <p className={"paragraph"} style={{textAlign: 'left'}}>
                             Here are some people that you can contact if you wish to know more about me and what I do.</p>
-                        <p className={"paragraph"}>
+                        <p className={"paragraph"} >
                             Dana Woltz, Former President of OUGDA: <a className={"hyperlink"} href={`mailto:gamedevdana@gmail.com`}>gamedevdana@gmail.com</a>
                         </p>
-                        {/* TODO: add more stuff later please */}
+                        <br/>
+                        <h3 className={"header"}>Resume</h3>
+                        <p className={"paragraph"}>
+                            You can find my resume <a className={"hyperlink"} href={require("../../Assets/Resume.pdf")}>here</a></p>
                     </Col>
                 </Row>
             </Container>

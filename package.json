@@ -1,7 +1,7 @@
 {
   "name": "rn-website",
   "version": "0.1.0",
-  "homepage": "https://hi-names-nat.github.io/porfolio-site/",
+  "homepage": "https://nataliesoltis.com",
   "private": true,
   "dependencies": {
     "@restart/ui": "^1.6.1",

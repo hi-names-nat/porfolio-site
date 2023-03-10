@@ -27,13 +27,15 @@ export default function ProjectTemplate() {
                         is currently planned to release in parts.
                     </p>
                     <h3 className={"header"}>Contributions</h3>
-                    <ul className={"paragraph"} style={{textAlign: "left", width: '80%', display: 'inline-block'}}>
+                    <ul className={"paragraph"} style={{textAlign: "left", display: 'inline-block'}}>
                         <li>
                             Level and art design in Unity Engine.
                         </li>
+                        <br/>
                         <li>
                             Design and implementation for new systems, such as AI using C#.
                         </li>
+                        <br/>
                         <li>
                             Redesign and implementation for old systems, such as the player controller using C#.
                         </li>

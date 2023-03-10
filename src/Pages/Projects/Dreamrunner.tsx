@@ -25,14 +25,16 @@ export default function Dreamrunner() {
                         saturday-morning-cartoon, psychonauts-like aesthetic.
                     </p>
                     <h3 className={"header"}>Contributions</h3>
-                    <ul className={"paragraph"} style={{textAlign: "left", width: '80%', display: 'inline-block'}}>
-                        <li>
-                            Level creation in Unity, using Probuilder and assets from the art team.
-                        </li>
+                    <ul className={"paragraph"} style={{textAlign: "left", display: 'inline-block'}}>
                         <li>
                             Design and programming of all game systems in C#, including player controller and all
                             other assets.
                         </li>
+                        <br/>
+                        <li>
+                            Level creation in Unity, using Probuilder and assets from the art team.
+                        </li>
+                        <br/>
                         <li>
                             Concept design and iteration.
                         </li>

@@ -27,14 +27,16 @@ export default function SASG() {
                         Unreal Engine.
                     </p>
                     <h3 className={"header"}>Contributions</h3>
-                    <ul className={"paragraph"} style={{textAlign: "left", width: '80%', display: 'inline-block'}}>
+                    <ul className={"paragraph"} style={{textAlign: "left", display: 'inline-block'}}>
                         <li>
                             All Design and implimentation of systems in C#, including resource management and
                             visual-oriented sequences.
                         </li>
+                        <br/>
                         <li>
                             Creation of all used 3D models.
                         </li>
+                        <br/>
                         <li>
                             Entire game finished within a 48-hour period.
                         </li>

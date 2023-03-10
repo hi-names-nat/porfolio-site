@@ -26,10 +26,11 @@ export default function Adoorable() {
                         of mine.
                     </p>
                     <h3 className={"header"}>Contributions</h3>
-                    <ul className={"paragraph"} style={{textAlign: "left", width: '80%', display: 'inline-block'}}>
+                    <ul className={"paragraph"} style={{textAlign: "left", display: 'inline-block'}}>
                         <li>
                             Level creation in Unity, using Probuilder and assets.
                         </li>
+                        <br/>
                         <li>
                             Design and programming of all game systems in C#.
                         </li>

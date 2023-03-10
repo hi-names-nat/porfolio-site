@@ -25,13 +25,15 @@ export default function Bobcat() {
                         I direct my team and communicate with the client whilst designing and programming systems in C#.
                     </p>
                     <h3 className={"header"}>Contributions</h3>
-                    <ul className={"paragraph"} style={{textAlign: "left", width: '80%', display: 'inline-block'}}>
+                    <ul className={"paragraph"} style={{textAlign: "left", display: 'inline-block'}}>
                         <li>
                             Design and programming of all game systems in C#
                         </li>
+                        <br/>
                         <li>
                             Managing and goal-setting a team of artists.
                         </li>
+                        <br/>
                         <li>
                             Communication and goal-setting with client.
                         </li>
