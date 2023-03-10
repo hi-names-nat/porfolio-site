@@ -3,8 +3,17 @@
     margin-left: 25px;
     flex-direction: column;
 }
+.name-divider:hover {
+    opacity: .7;
+}
 .name-subtitle {
     flex: 1;
     text-align: center;
     color: white;
+}
+.name-subtitle:hover {
+    color: #f0b0ff;
+}
+.name-title:hover {
+    color: #ecc4ff;
 }
