@@ -18,3 +18,7 @@
     min-height: 25vh;
     margin-bottom: 2vh;
 }
+.socials {
+    justify-content: space-evenly;
+    display: flex;
+}

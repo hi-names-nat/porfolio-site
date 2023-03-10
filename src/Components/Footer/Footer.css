@@ -1,9 +1,38 @@
 .main-footer {
-    height: 9vh;
+    height: 5vh;
     width: 100%;
     background-color: #2c282c;
     display: flex;
+    flex: 1;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0 0 ;
+    padding: 0 0 ;
+
+}
+.footer-container {
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    color: #f0b0ff66;
+    font-size: 8pt;
+    margin: 0 0;
+    padding: 0 0 ;
+}
+.footer-link:hover {
+    color: #ecc4ff88;
+}
+.footer-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #a09e9a;
+    font-size: 10pt;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    margin: 0 0 ;
 }

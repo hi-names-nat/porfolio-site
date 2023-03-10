@@ -1,7 +1,11 @@
 .App {
   text-align: center;
   background-color: rgba(15,20,25,1);
-  min-height: 100vh;
+}
+
+.Content {
+  min-height: 95vh;
+
 }
 
 .App-logo {

@@ -4,6 +4,8 @@ import "./About.css"
 import "../../UnifiedCSS.css"
 import me from "../../Assets/me.png";
 import Container from "react-bootstrap/Container";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 export default function About() {
     return (
@@ -12,6 +14,17 @@ export default function About() {
                 <Row>
                     <Col>
                         <Image src={me} className={"self-image"} rounded={true} fluid={true}/>
+                        <div className={"socials"}>
+                            <a href={"https://www.linkedin.com/in/hi-names-nat/"} target={"_blank"} className={"links"}>
+                                <FontAwesomeIcon icon={brands('linkedin')} color={'white'} size={'3x'}/>
+                            </a>
+                            <a href={"https://mastodon.gamedev.place/@Hi_Names_Nat"} target={"_blank"} className={"links"}>
+                                <FontAwesomeIcon icon={brands('mastodon')} color={'white'} size={'3x'}/>
+                            </a>
+                            <a href={"https://github.com/hi-names-nat"} target={"_blank"} className={"links"}>
+                                <FontAwesomeIcon icon={brands('github')} color={'white'} size={'3x'}/>
+                            </a>
+                        </div>
                     </Col>
                     <Col>
                         <h1 className={"header"}>Hi, I'm Natalie!</h1>
