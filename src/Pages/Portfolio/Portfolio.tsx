@@ -37,7 +37,7 @@ export default function Portfolio() {
                     <DemoVideo link={"/Adoorable"} name={"Adoorable Hotel"}
                                video={require("../../Assets/Adoorable/adoor_video1.mp4")} about={
                         "An indie-horror style horror game where you have to escape a monster by collecting" +
-                        "parts. Developed in the Unity Engine."
+                        " parts. Developed in the Unity Engine."
                     } />
                 </div>
             </div>

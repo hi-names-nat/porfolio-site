@@ -1,0 +1,9 @@
+.main-footer {
+    height: 9vh;
+    width: 100%;
+    background-color: #2c282c;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
