@@ -21,7 +21,7 @@ export default function About() {
                             <a href={"https://mastodon.gamedev.place/@Hi_Names_Nat"} target={"_blank"} className={"links"}>
                                 <FontAwesomeIcon icon={brands('mastodon')} color={'white'} size={'3x'}/>
                             </a>
-                            <a href={"https://github.com/hi-names-nat"} target={"_blank"} className={"links"}>
+                            <a rel={"me"} href={"https://github.com/hi-names-nat"} target={"_blank"} className={"links"}>
                                 <FontAwesomeIcon icon={brands('github')} color={'white'} size={'3x'}/>
                             </a>
                         </div>
