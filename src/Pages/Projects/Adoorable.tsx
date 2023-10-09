@@ -2,7 +2,7 @@ import {Image, Row, Col, Carousel, ButtonGroup} from "react-bootstrap";
 import React from "react";
 import "../../UnifiedCSS.css"
 import Container from "react-bootstrap/Container";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import "./Template.css"
 
 
@@ -15,7 +15,7 @@ export default function Adoorable() {
     return (
         <Container>
             <div  className={"header-div"}>
-                <h1 className={"header"}>Adoorable</h1>
+                <h1 className={"header"}>Adoorable Hotel</h1>
             </div>
             <div className={"info-div"}>
                 <div className={"text-holder"}>
@@ -39,13 +39,13 @@ export default function Adoorable() {
                 <div>
                     <Carousel className={"carousel"}>
                         <Carousel.Item>
-                                <ReactPlayer url={require("../../Assets/Adoorable/adoor_video1.mp4")}
-                                             width={'100%'} height={'100%'} className={"player"}
+                                <ReactPlayer url={"https://youtu.be/YRP_qQ0vi_Q"}
+                                             width={'42vw'} height={'43vh'} className={"player"}
                                              muted loop playing/>
                             </ Carousel.Item>
                         <Carousel.Item>
-                            <ReactPlayer url={require("../../Assets/Adoorable/adoor_video2.mp4")}
-                                         width={'100%'} height={'100%'} className={"player"}
+                            <ReactPlayer url={"https://youtu.be/9oaYl3CaC3c"}
+                                         width={'42vw'} height={'43vh'} className={"player"}
                                          muted loop playing/>
                         </ Carousel.Item>
                         <Carousel.Item>

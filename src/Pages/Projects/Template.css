@@ -65,3 +65,18 @@ div.media-wrapper > ReactPlayer {
     width: 100%;
      justify-content: space-evenly;
 }
+.react-player {
+    .react-player {
+        padding-top: 56.25%;
+    position: relative;
+    }
+}
+
+.react-player > div {
+    position: absolute;
+}
+.video-wrapper {
+    height: 100%;
+    width: 100%;
+    min-height: 225px;
+}

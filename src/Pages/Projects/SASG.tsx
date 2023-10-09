@@ -2,7 +2,7 @@ import {Image, Row, Col, Carousel, ButtonGroup} from "react-bootstrap";
 import React from "react";
 import "../../UnifiedCSS.css"
 import Container from "react-bootstrap/Container";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import "./Template.css"
 
 
@@ -45,8 +45,8 @@ export default function SASG() {
                 <div>
                     <Carousel className={"carousel"}>
                         <Carousel.Item>
-                                <ReactPlayer url={require("../../Assets/SASG/SASG.mp4")}
-                                             width={'100%'} height={'100%'} className={"player"}
+                                <ReactPlayer url={"https://youtu.be/Z7SlcVF86q0"}
+                                             width={'42vw'} height={'43vh'} className={"player"}
                                              muted loop playing/>
                             </ Carousel.Item>
                         <Carousel.Item>

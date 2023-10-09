@@ -14,10 +14,10 @@ export default function Topbar() {
             </NavLink>
                 <Nav>
                     <NavDropdown title={"Projects"}>
-                        <NavDropdown.Item href={"/Bobcat"}>Bobcat Project</NavDropdown.Item>
                         <NavDropdown.Item href={"/NSCM"}>Netscape Cybermind</NavDropdown.Item>
+                        <NavDropdown.Item href={"/Dreamrunner"}>Blazing Moon</NavDropdown.Item>
+                        <NavDropdown.Item href={"/Bobcat"}>Bobcat Project</NavDropdown.Item>
                         <NavDropdown.Item href={"/SASG"}>Steady As She Goes</NavDropdown.Item>
-                        <NavDropdown.Item href={"/Dreamrunner"}>Dreamrunner</NavDropdown.Item>
                         <NavDropdown.Item href={"/Adoorable"}>Adoorable Hotel</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href={"/About"}>About Me</Nav.Link>
