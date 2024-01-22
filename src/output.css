@@ -1,31 +1,27 @@
-$font-primary: Ubuntu, sans-serif;
-
-%heading {
-  font-family: $font-primary;
+h3, h2, h1 {
+  font-family: Ubuntu, sans-serif;
   margin: 0 0;
   color: #f8f4ec;
 }
 
 h1 {
-  @extend %heading;
   font-size: 5rem;
 }
 
 h2 {
-  @extend %heading;
   font-size: 3rem;
   text-align: center;
   margin: 0 0;
 }
+
 h3 {
-  @extend %heading;
   font-size: 2rem;
   text-align: center;
 }
 
 .App {
   background: linear-gradient(to right, #715e96, #beb0d8);
-  position:fixed;
+  position: fixed;
   height: 100%;
   width: 100%;
   z-index: 10;
@@ -47,7 +43,7 @@ h3 {
 
 .bg-image {
   background-image: url("./Assets/ws-panel-griddy.png");
-  position:fixed;
+  position: fixed;
   height: 100%;
   width: 100%;
   z-index: 10;
@@ -57,8 +53,8 @@ h3 {
 .rc-header {
   flex: auto;
   text-align: center;
-  backdrop-filter: blur(.5rem);
-  border-bottom: .2rem solid rgba(1, 1, 1, .10);
+  backdrop-filter: blur(0.5rem);
+  border-bottom: 0.2rem solid rgba(1, 1, 1, 0.1);
   padding: 2rem 0;
 }
 
@@ -73,6 +69,4 @@ h3 {
   border-radius: 1rem;
 }
 
-.rc-links {
-
-}
+/*# sourceMappingURL=output.css.map */
