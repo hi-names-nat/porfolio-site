@@ -5,16 +5,11 @@ import Router from "./Components/Router";
 import Footer from "./Components/Footer/Footer";
 
 
-function App() {
+function App(): JSX.Element {
 
   return (
     <div className="App">
-        <a rel={"me"} href={"https://mastodon.gamedev.place/@Hi_Names_Nat"} />
-        <div className={'Content'}>
-            <Topbar />
-            <Router/>
-        </div>
-        <Footer/>
+
     </div>
   );
 }
