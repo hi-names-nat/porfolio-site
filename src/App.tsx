@@ -1,4 +1,4 @@
-import './output.css';
+import './UnifiedStyle.scss';
 import Slab from "./RConstruct/Components/Slab";
 import Header from "./RConstruct/Components/Header"
 
